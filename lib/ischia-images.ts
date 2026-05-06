@@ -24,7 +24,7 @@ export const ischiaImages = {
   reason2Image: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_161915_5034f484-7a53-4565-91c9-f4715aa7b322.png?v=1777830209",   // Sit-up posture, drink in hand
   reason3Image: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_161633_c8a9e77f-24d0-49ce-ae86-2fac889dfb62.png?v=1777829142",   // Craft / fabric-covered detail
   reason4Image: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_170503_ba8b1155-1b65-4b46-a4d2-b28865f8a950.png?v=1777829146",   // Versatility / 4-in-1
-  reason5Image: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_211811_ea7331cc-8493-47fa-9d50-bdd411d1a64a_1.png?v=1777844389",   // Aesthetic / colorway scene
+  reason5Image: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_161305_cf35bea4-35a3-4ade-860f-0c605932fa65.png?v=1778049487",   // Aesthetic / colorway scene
   reason6Image: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_161322_6b53baf6-61a1-40cf-a951-73f75e0b1923.png?v=1777829120",   // Risk-free / packaging or fold-flat
 
   // ── PRODUCT SHOWCASE ──────────────────────────────────────
