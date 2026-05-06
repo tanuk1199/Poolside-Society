@@ -7,11 +7,12 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-[var(--psl-bg)] overflow-x-hidden">
       {/* ============================================
-          PROMOTIONAL BANNER — soft service line
+          PROMOTIONAL BANNER — main offer
           ============================================ */}
       <div className="bg-[var(--psl-dark-bg)] text-center py-3 px-4">
-        <p className="text-xs md:text-sm font-medium tracking-wide text-[var(--psl-dark-text)]/90 uppercase">
-          Free Shipping Over $50 <span className="opacity-50 mx-2">·</span> 30-Day Promise
+        <p className="text-xs md:text-sm font-medium tracking-wide uppercase">
+          <span className="text-[var(--psl-border)] font-bold tracking-wider">BUY 1 GET 1 FREE</span>{" "}
+          <span className="text-[var(--psl-dark-text)]">+ FREE GIFTS</span>
         </p>
       </div>
 
