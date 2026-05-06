@@ -14,7 +14,7 @@ export const ischiaImages = {
   // ── HERO SECTION ──────────────────────────────────────────
   // Primary lander shot. Use the most editorial / lifestyle frame
   // available — the pool chair in scene, not on a white seamless.
-  heroImage: "https://cdn.shopify.com/videos/c/o/v/21ed62dba5a944b188e7461eb778b521.mp4",
+  heroImage: "https://cdn.shopify.com/videos/c/o/v/8723a4ed08be42b49d4ff737796b3dda.mp4",
 
   // ── LISTICLE REASON IMAGES (1:1 aspect ratio) ─────────────
   // Each reason image should reinforce its headline. Map below is a
@@ -33,7 +33,7 @@ export const ischiaImages = {
   productThumb2: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_161628_57f492da-9c75-429b-a193-0283432fa9cd.png?v=1777829139",
   productThumb3: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_161633_c8a9e77f-24d0-49ce-ae86-2fac889dfb62.png?v=1777829142",
   productThumb4: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_170503_ba8b1155-1b65-4b46-a4d2-b28865f8a950.png?v=1777829146",
-  productThumb5: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_172655_3cbc12f9-7452-4721-9939-a07fc0e9bb31.png?v=1777829850",
+  productThumb5: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_161305_ea81d0cb-aab2-4e18-bc95-7093bff900af.png?v=1778049089",
   productThumb6: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_161322_6b53baf6-61a1-40cf-a951-73f75e0b1923.png?v=1777829120",
 
 } as const
