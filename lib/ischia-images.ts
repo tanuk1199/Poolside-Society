@@ -7,6 +7,11 @@
 // Swap any URL below to update an image. Empty string ("") = emoji
 // fallback shown on page (use sparingly — every PSL lander should
 // render real imagery).
+//
+// VIDEO SUPPORT: heroImage / productMain / any reason image accepts an
+// .mp4 / .webm / .mov URL. <IschiaAsset> auto-detects the extension and
+// renders a muted-autoplay-loop <video> instead of <img>. Mobile autoplay
+// works automatically (muted + playsInline are set for you).
 // ============================================================
 
 export const ischiaImages = {
@@ -14,7 +19,7 @@ export const ischiaImages = {
   // ── HERO SECTION ──────────────────────────────────────────
   // Primary lander shot. Use the most editorial / lifestyle frame
   // available — the pool chair in scene, not on a white seamless.
-  heroImage: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/hf_20260503_211811_ea7331cc-8493-47fa-9d50-bdd411d1a64a_1.png?v=1777844389",
+  heroImage: "https://cdn.shopify.com/s/files/1/0983/8251/2419/files/0504_2_-Cover.jpg?v=1778044137",
 
   // ── LISTICLE REASON IMAGES (1:1 aspect ratio) ─────────────
   // Each reason image should reinforce its headline. Map below is a
