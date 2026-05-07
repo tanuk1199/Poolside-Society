@@ -11,8 +11,8 @@ export default function LandingPage() {
           ============================================ */}
       <div className="bg-[var(--psl-dark-bg)] text-center py-3 px-4">
         <p className="text-xs md:text-sm font-medium tracking-wide uppercase">
-          <span className="text-[var(--psl-border)] font-bold tracking-wider">BUY 1 ISCHIA CHAIR GET 1 FREE</span>{" "}
-          <span className="text-[var(--psl-dark-text)]">+ FREE GIFTS</span>
+          <span className="text-[var(--psl-border)] font-bold tracking-wider">UP TO 60% OFF THE ISCHIA CHAIR</span>{" "}
+          <span className="text-[var(--psl-dark-text)]">ENDS SOON</span>
         </p>
       </div>
 
