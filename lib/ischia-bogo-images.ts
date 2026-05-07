@@ -22,7 +22,7 @@
 export const ischiaBogoImages = {
 
   // ── HERO SECTION ──────────────────────────────────────────
-  heroImage: "https://cdn.shopify.com/videos/c/o/v/21ed62dba5a944b188e7461eb778b521.mp4",
+  heroImage: "https://cdn.shopify.com/videos/c/o/v/8723a4ed08be42b49d4ff737796b3dda.mp4",
 
   // ── FREE GIFTS BAND ───────────────────────────────────────
   // Three free gifts that ship with every BOGO order. Default to product

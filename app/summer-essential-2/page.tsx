@@ -3,12 +3,6 @@ import { IschiaBogoAsset } from "@/components/ischia-bogo-asset"
 
 const PDP_URL = "https://poolsidesocietyco.com/products/the-ischia-pool-chair-2"
 
-const FREE_GIFTS: Array<{ key: "giftImage1" | "giftImage2" | "giftImage3"; name: string; value: string }> = [
-  { key: "giftImage1", name: "Poolside Tote", value: "$24" },
-  { key: "giftImage2", name: "Floating Drink Holder", value: "$12" },
-  { key: "giftImage3", name: "Patch Repair Kit", value: "$8" },
-]
-
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-[var(--psl-bg)] overflow-x-hidden">
@@ -89,49 +83,6 @@ export default function LandingPage() {
           <p className="text-xs text-[var(--psl-text)]/80 font-medium tracking-wide">
             4.8 stars <span className="text-[var(--psl-text-muted)] mx-1">·</span> 600+ reviews <span className="text-[var(--psl-text-muted)] mx-1">·</span> Procida Blue + Ischia Verde
           </p>
-        </div>
-      </section>
-
-      {/* ============================================
-          FREE GIFTS BAND — 3-cell stylized
-          ============================================ */}
-      <section className="bg-[var(--psl-surface)] border-y border-[var(--psl-border)] py-10 px-4">
-        <div className="max-w-lg mx-auto">
-          <div className="text-center mb-6">
-            <p className="text-[10px] tracking-[0.22em] uppercase font-semibold text-[var(--psl-text)]/70 mb-2">
-              Included with every BOGO order
-            </p>
-            <h2 className="font-display italic text-[26px] md:text-[32px] text-[var(--psl-text)] leading-[1.15] text-balance">
-              Three poolside essentials, on us
-            </h2>
-            <p className="font-body text-xs text-[var(--psl-text-muted)] mt-2 tracking-wide">
-              $44 in extras — no upgrade, no add-to-cart
-            </p>
-          </div>
-
-          <div className="grid grid-cols-3 gap-3">
-            {FREE_GIFTS.map((gift, i) => (
-              <div
-                key={i}
-                className="bg-white border border-[var(--psl-border)] rounded-xl p-3 text-center"
-              >
-                <div className="relative w-full aspect-square rounded-lg overflow-hidden bg-[var(--psl-surface)] mb-3">
-                  <IschiaBogoAsset
-                    name={gift.key}
-                    alt={gift.name}
-                    className="w-full h-full object-cover"
-                    fallbackClassName="w-full h-full flex items-center justify-center text-3xl"
-                  />
-                </div>
-                <p className="font-display italic text-sm md:text-base text-[var(--psl-text)] leading-tight mb-1">
-                  {gift.name}
-                </p>
-                <p className="text-[10px] tracking-[0.16em] uppercase font-semibold text-[var(--psl-cta)]">
-                  {gift.value} value &middot; Free
-                </p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
